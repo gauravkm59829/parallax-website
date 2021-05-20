@@ -1,0 +1,62 @@
+body, html {
+    height :100%;
+    font-size:16px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    line-height:1.8em;
+    color:#669;
+    }
+    .pimg1, .pimg2, .pimg3{
+        position:relative;
+        opacity:0.65;
+        background-position:center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        background-attachment:fixed;
+    }
+    .pimg1{
+        background-image: url('../img/pexels-city-1.jpg');
+        min-height: 100%;
+    }
+    .pimg2{
+        background-image: url('../img/pexels-city-2.jpg');
+        min-height: 400px;
+    }
+    .pimg3{
+        background-image: url('../img/pexels-city-5.jpg');
+        min-height: 400px;
+    }
+
+    .section{
+        text-align:center;
+        padding:40px 75px;
+    }
+    .section-light{
+        background-color:#dbe3e7;
+        color:black;
+    }
+    .section-dark{
+        background-color:#282e34;
+        color:#aaa;
+    }
+    .ptext{
+        position:absolute;
+        top: 50%;
+        width:100%;
+        text-align:center;
+        color:#000;
+        font-size: 30px;
+        letter-spacing:8px;
+        text-transform: uppercase;
+
+    }
+    .ptext .border {
+        background-color: #621da3;
+        color:#a3e472;
+        padding: 20px;
+    }
+    .ptext .border.trans{
+        background-color:transparent;
+        color:rgb(192, 176, 176);
+    }
