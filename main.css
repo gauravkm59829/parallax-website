@@ -6,6 +6,7 @@ body, html {
     line-height:1.8em;
     color:#669;
     }
+ 
     .pimg1, .pimg2, .pimg3{
         position:relative;
         opacity:0.65;
@@ -60,3 +61,11 @@ body, html {
         background-color:transparent;
         color:rgb(192, 176, 176);
     }
+
+ @viewport {
+     zoom :1.0;
+     width: extend-to-zoom;
+}
+@-ms-viewport {
+    width: extend-to-zoom;;
+    zoom: 1.0;
