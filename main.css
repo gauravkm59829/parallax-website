@@ -1,6 +1,6 @@
 body, html {
     height :100%;
-    font-size:16px;
+    font-size:100%;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 500;
     line-height:1.8em;
@@ -22,16 +22,16 @@ body, html {
     }
     .pimg2{
         background-image: url('pexels-city-2.jpg');
-        min-height: 400px;
+        min-height: 25rem;
     }
     .pimg3{
         background-image: url('pexels-city-5.jpg');
-        min-height: 400px;
+        min-height: 25rem;
     }
 
     .section{
         text-align:center;
-        padding:40px 75px;
+        padding:2.5rem 5rem;
     }
     .section-light{
         background-color:#dbe3e7;
@@ -47,25 +47,28 @@ body, html {
         width:100%;
         text-align:center;
         color:#000;
-        font-size: 30px;
-        letter-spacing:8px;
+        font-size: 2rem;
+        letter-spacing:.5rem;
         text-transform: uppercase;
 
     }
     .ptext .border {
         background-color: #621da3;
         color:#a3e472;
-        padding: 20px;
+        padding: 1.25rem;
     }
     .ptext .border.trans{
         background-color:transparent;
         color:rgb(192, 176, 176);
     }
 
- @viewport {
-     zoom :1.0;
-     width: extend-to-zoom;
-}
-@-ms-viewport {
-    width: extend-to-zoom;;
-    zoom: 1.0;
+   @media (max-width: 998px){
+     html{
+         font-size: 55%;
+     }
+} 
+ @media (max-width: 768px) {
+     html{
+         font-size: 45%;
+     }
+} 
